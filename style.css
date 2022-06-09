@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@700&family=Roboto:wght@100;400&family=Yellowtail&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif ;
+}
+
+header {
+  max-width: 1366px;
+  background-color:#129799;
+  height: 92vh;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-color: #FFA185;
+  height: 170vh;
+}
+
+article {
+  height: 25vh;
+  padding: 30px;
+  line-height: 40px;
+}
+
+footer {
+  height: 24vh;
+  background-color: #129799;
+  display: flex;
+  align-items: center;
+}
+
+.first_nav {
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+  align-items: flex-end;
+}
+
+.first_list {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.header_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.header_div p {
+  width: 40%;
+  font-size: 300%;
+  font-weight: bold;
+  color: white;
+}
+
+.header_div img {
+  width: 50%;
+}
+
+.second_nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 3vh;
+}
+
+.second_list {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.main_section {
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.main_section img {
+  width: 46%;
+  height: 60vh;
+  display: flex;
+  margin-top: 35px;
+}
+
+.main_p {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.section_footer {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_footer img {
+  width: 3vw;
+}
+
+.nav_footer {
+  width: 77%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.third_list {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
